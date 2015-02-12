@@ -2,6 +2,7 @@
 This is the first part of a TDOA-system used for estimating the time differences.
 It has been developed as a master's thesis project at Lund University.
 
+
 Prerequisites
 -------------
 The scripts have only been tested with Matlab 2014a (inlcuding the Image Processing Toolbox).
@@ -16,7 +17,15 @@ Run `main`.
 Input data
 ----------
 The script takes any number of sound files as input data.
+The recordings have to be synchronized.
+To use `readaudio` the file names have to correspond and end with an integer, e.g., `channel-1.aiff`, `channel-2.aiff` etc.
 So far only input sound files recored with a sample rate of 96000 Hz have been used to test the scripts.
-Different sample rates should also work, but might require some extra tweaking of the settings.
+Other sample rates should also work, but might require some extra tweaking of the settings.
 
-Sample input data will be uploaded eventually!
+Sample input data will be uploaded soon!
+
+Contributing
+------------
+Any suggestions for improvements and feedback is welcome!
+It could be optimizing the Matlab-code, porting the scripts to Python, or test results from using the scripts.
+
