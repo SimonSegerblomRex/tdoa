@@ -1,5 +1,6 @@
 #tdoa
 This is the first part of a TDOA-system used for estimating the time differences.
+It has been developed as a master's thesis project at Lund University.
 
 Prerequisites
 -------------
