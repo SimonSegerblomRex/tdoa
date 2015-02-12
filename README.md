@@ -19,7 +19,7 @@ Input data
 The script takes any number of sound files as input data.
 The recordings have to be synchronized.
 To use `readaudio` the file names have to correspond and end with an integer, e.g., `channel-1.aiff`, `channel-2.aiff` etc.
-So far only input sound files recored with a sample rate of 96000 Hz have been used to test the scripts.
+So far only input sound files recorded with a sample rate of 96000 Hz have been used to test the scripts.
 Other sample rates should also work, but might require some extra tweaking of the settings.
 
 Sample input data will be uploaded soon!
