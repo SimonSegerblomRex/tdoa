@@ -11,3 +11,11 @@ Usage
 -----
 Download the scripts and Matlab functions and open them in a new workspace.
 Run `main`.
+
+Input data
+----------
+The script takes any number of sound files as input data.
+So far only input sound files recored with a sample rate of 96000 Hz have been used to test the scripts.
+Different sample rates should also work, but might require some extra tweaking of the settings.
+
+Sample input data will be uploaded eventually!
