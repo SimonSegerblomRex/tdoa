@@ -9,6 +9,9 @@ The scripts have only been tested with Matlab 2014a (inlcuding the Image Process
 Hopefully they also work with earlier (and later) versions of Matlab.
 GNU Octave should also work if you fix `audioread`.
 
+![Input data](figures/inputdata.png)
+![Output data](figures/outputdata.png)
+
 Usage
 -----
 Download the scripts and Matlab functions and open them in a new workspace.
