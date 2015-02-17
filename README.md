@@ -6,6 +6,8 @@ Taking a number of sound files as input it outputs the range-differences:
 ![Input data](http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg)
 ![Output data](http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg)
 
+![Input data](figures/inputdata.svg)
+
 Prerequisites
 -------------
 The scripts have only been tested with Matlab 2014a (inlcuding the Image Processing Toolbox).
