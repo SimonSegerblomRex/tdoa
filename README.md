@@ -2,6 +2,9 @@
 This is the first part of a TDOA-system used for estimating the time differences.
 It has been developed as a master's thesis project at Lund University.
 
+Taking a number of sound files as input it outputs the range-differences:
+![Input data](figures/inputdata.png)
+![Output data](figures/outputdata.png)
 
 Prerequisites
 -------------
@@ -9,14 +12,12 @@ The scripts have only been tested with Matlab 2014a (inlcuding the Image Process
 Hopefully they also work with earlier (and later) versions of Matlab.
 GNU Octave should also work if you fix `audioread`.
 
-![Input data](figures/inputdata.png)
-![Output data](figures/outputdata.png)
-
 Usage
 -----
 Download the scripts and Matlab functions and open them in a new workspace.
 Run `main`.
 
+Here's a dependency gaph of the code:
 ![Dependency graph](figures/matlabcode.png)
 
 Input data
