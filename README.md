@@ -34,6 +34,6 @@ Sample input data will be uploaded soon!
 
 Contributing
 ------------
-Any suggestions for improvements and feedback is welcome!
+Any suggestions for improvements and feedback are welcome!
 It could be optimizing the Matlab-code, porting the scripts to Python, or test results from using the scripts.
 
