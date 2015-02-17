@@ -14,6 +14,8 @@ Usage
 Download the scripts and Matlab functions and open them in a new workspace.
 Run `main`.
 
+![Dependency graph](figures/matlabcode.png)
+
 Input data
 ----------
 The script takes any number of sound files as input data.
