@@ -3,8 +3,8 @@ This is the first part of a TDOA-system used for estimating the time differences
 It has been developed as a master's thesis project at Lund University.
 
 Taking a number of sound files as input it outputs the range-differences:
-![Input data](figures/inputdata.png)
-![Output data](figures/outputdata.png)
+![Input data](figures/inputdata.svg)
+![Output data](figures/outputdata.svg)
 
 Prerequisites
 -------------
@@ -19,7 +19,7 @@ Run `main`.
 
 Here's a dependency graph of the code:
 
-![Dependency graph](figures/matlabcode.png)
+![Dependency graph](figures/matlabcode.svg)
 
 Input data
 ----------
