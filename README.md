@@ -12,6 +12,7 @@ Taking a number of sound files as input it outputs the range-differences:
 ![Output data](figures/outputdata.svg)
 >>>>>>> 858424645a37fc3320436159e646d6bfc52a005f
 
+
 Prerequisites
 -------------
 The scripts have only been tested with Matlab 2014a (inlcuding the Image Processing Toolbox).
