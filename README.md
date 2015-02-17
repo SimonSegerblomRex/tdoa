@@ -18,6 +18,7 @@ Download the scripts and Matlab functions and open them in a new workspace.
 Run `main`.
 
 Here's a dependency gaph of the code:
+
 ![Dependency graph](figures/matlabcode.png)
 
 Input data
