@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tdoa by SimonSegerblomRex</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Tdoa</h1>
+        <p>This is the first part of a TDOA-system used for estimating the time differences.</p>
+
+        <p class="view"><a href="https://github.com/SimonSegerblomRex/tdoa">View the Project on GitHub <small>SimonSegerblomRex/tdoa</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/SimonSegerblomRex/tdoa/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/SimonSegerblomRex/tdoa/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/SimonSegerblomRex/tdoa">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="tdoa" class="anchor" href="#tdoa" aria-hidden="true"><span class="octicon octicon-link"></span></a>tdoa</h1>
+
+<p>This is the first part of a TDOA-system used for estimating the time differences.
+It has been developed as a master's thesis project at Lund University.</p>
+
+<p>Taking a number of sound files as input it outputs the range-differences:</p>
+
+<blockquote>
+<p><img src="figures/inputdata.svg" alt="Input data">
+<img src="https://github.com/SimonSegerblomRex/tdoa/raw/master/figures/inputdata.svg" alt="Input data">
+<img src="figures/outputdata.svg" alt="Output data"></p>
+</blockquote>
+
+<h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<p>The scripts have only been tested with Matlab 2014a (inlcuding the Image Processing Toolbox).
+Hopefully they also work with earlier (and later) versions of Matlab.
+GNU Octave should also work if you fix <code>audioread</code>.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Download the scripts and Matlab functions and open them in a new workspace.
+Run <code>main</code>.</p>
+
+<p>Here's a dependency graph of the code:</p>
+
+<p><img src="figures/matlabcode.svg" alt="Dependency graph"></p>
+
+<h2>
+<a id="input-data" class="anchor" href="#input-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Input data</h2>
+
+<p>The script takes any number of sound files as input data.
+The recordings have to be synchronized.
+To use <code>readaudio</code> the file names have to correspond and end with an integer, e.g., <code>channel-1.aiff</code>, <code>channel-2.aiff</code> etc.
+So far only input sound files recorded with a sample rate of 96000 Hz have been used to test the scripts.
+Other sample rates should also work, but might require some extra tweaking of the settings.</p>
+
+<p>Sample input data will be uploaded soon!</p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Any suggestions for improvements and feedback is welcome!
+It could be optimizing the Matlab-code, porting the scripts to Python, or test results from using the scripts.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/SimonSegerblomRex">SimonSegerblomRex</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
