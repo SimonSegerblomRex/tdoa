@@ -4,8 +4,8 @@ It has been developed as a master's thesis project at Lund University.
 
 Taking a number of sound files as input it outputs the range-differences:
 
-<img src="http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg" alt="Input data" title="Input data" height="220" />
-<img src="http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg" alt="Output data" title="Output data" height="220" />
+<img src="http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg" alt="Input data" title="Input data" height="250" />
+<img src="http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg" alt="Output data" title="Output data" height="250" />
 
 Prerequisites
 -------------
