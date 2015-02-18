@@ -4,8 +4,8 @@ It has been developed as a master's thesis project at Lund University.
 
 Taking a number of sound files as input it outputs the range-differences:
 
-<img src="http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg" alt="Input data" title="Input data" height=180 />
-<img src="http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg" alt="Output data" title="Output data" />
+<img src="http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg" alt="Input data" title="Input data" height="200" />
+<img src="http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg" alt="Output data" title="Output data" height="200" />
 
 Prerequisites
 -------------
@@ -20,7 +20,7 @@ Run `main`.
 
 Here's a dependency graph of the code:
 
-<img src="http://simonsegerblomrex.github.io/tdoa/figures/matlabcode.svg" alt="Dependency graph" title="Dependency graph" />
+<img src="http://simonsegerblomrex.github.io/tdoa/figures/matlabcode.svg" alt="Dependency graph" title="Dependency graph" width="400" />
 
 Input data
 ----------
