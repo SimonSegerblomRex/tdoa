@@ -2,7 +2,7 @@
 This is the first part of a TDOA-system used for estimating the time differences.
 It has been developed as a master's thesis project at Lund University.
 
-Taking a number of sound files as input it outputs the range-differences:
+Taking a number of sound files as input it outputs the range-differences compared to one of the channels (the red one in the following illustrations):
 
 <img src="http://simonsegerblomrex.github.io/tdoa/figures/inputdata.svg" alt="Input data" title="Input data" height="250" />
 <img src="http://simonsegerblomrex.github.io/tdoa/figures/outputdata.svg" alt="Output data" title="Output data" height="250" />
